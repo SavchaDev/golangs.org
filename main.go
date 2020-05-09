@@ -1,5 +1,10 @@
 package main
 
 func main() {
-	flightToMars()
+	// 6
+	//flightToMars()
+
+	// 17
+	chessBoard()
+
 }
