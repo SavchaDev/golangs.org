@@ -1,8 +1,9 @@
-package main
+package collections
 
 import "fmt"
 
-func chessBoard() {
+// ChessBoard расстановка фигур
+func ChessBoard() {
 	var board [8][8]rune // Массив из восьми массивов с восемью строками
 	// black
 	board[0] = [8]rune{9821, 9822, 9821, 9818, 9819, 9821, 9822, 9821}

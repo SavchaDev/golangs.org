@@ -1,13 +1,18 @@
 package main
 
+import (
+	//"./results"
+	"./collections"
+)
+
 func main() {
-	// 6
-	//flightToMars()
+	// results
+	//results.FlightToMars()
 
-	// 17 array
-	//chessBoard()
-
-	// 18 slice-array
-	changePlanets()
+	// slice array map
+	//collections.chessBoard()
+	//collections.ChangePlanets()
+	//collections.WorkWithSlice()
+	collections.TestMap()
 
 }

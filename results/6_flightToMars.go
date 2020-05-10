@@ -1,4 +1,4 @@
-package main
+package results
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 const dist = 62100000
 
 // FlightToMars sss
-func flightToMars() {
+func FlightToMars() {
 	fmt.Println("Spiceline         Days   Trip type    Price")
 	fmt.Println("===========================================")
 	for count := 10; count > 0; count-- {

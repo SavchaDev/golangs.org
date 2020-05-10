@@ -1,4 +1,4 @@
-package main
+package collections
 
 import "fmt"
 
@@ -10,7 +10,8 @@ func (terra newPlanets) varyPlanet() {
 	}
 }
 
-func changePlanets() {
+// ChangePlanets изменение списка планет
+func ChangePlanets() {
 	planets := []string{
 		"Меркурий", "Венера", "Земля", "Марс",
 		"Юпитер", "Сатурн", "Уран", "Нептун",
