@@ -1,18 +1,20 @@
 package main
 
 import (
-	//"./results"
-	"./collections"
+	// "./collections"
+	"./results"
 )
 
 func main() {
 	// results
 	//results.FlightToMars()
+	results.GameOfLife()
 
 	// slice array map
 	//collections.chessBoard()
 	//collections.ChangePlanets()
 	//collections.WorkWithSlice()
-	collections.TestMap()
+	//collections.TestMap()
+	// collections.WordFrequency()
 
 }
