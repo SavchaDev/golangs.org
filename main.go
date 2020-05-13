@@ -1,14 +1,14 @@
 package main
 
 import (
-	// "./collections"
-	"./results"
+	"./collections"
+	// "./results"
 )
 
 func main() {
 	// results
 	//results.FlightToMars()
-	results.GameOfLife()
+	// results.GameOfLife()
 
 	// slice array map
 	//collections.chessBoard()
@@ -16,5 +16,6 @@ func main() {
 	//collections.WorkWithSlice()
 	//collections.TestMap()
 	// collections.WordFrequency()
-
+	// collections.TestStruct()
+	collections.TestStructModules()
 }

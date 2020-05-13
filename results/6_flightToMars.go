@@ -7,7 +7,7 @@ import (
 
 const dist = 62100000
 
-// FlightToMars sss
+// FlightToMars mars-aviasales
 func FlightToMars() {
 	fmt.Println("Spiceline         Days   Trip type    Price")
 	fmt.Println("===========================================")
